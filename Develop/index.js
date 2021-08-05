@@ -6,17 +6,49 @@ const fs = require('fs');
 const questions = () => {
     return inquirer.prompt([
         {
+            name: 'projectTitle',
             type: 'input',
             message: 'What is the title of your project?',
         },
         {
+            name: 'description',
             type: 'input',
-            message: 'Write a 2-3 sentence description about your project.',
+            message: 'Provide a short description description of what, why, and how of your project.',
         },
         {
+            name: 'installation',
             type: 'input',
-            message: 'Installation needed for this application',
-        }
+            message: 'How to install README generator?',
+        },
+        {
+            name: 'usageOf',
+            type: 'input',
+            message: 'How to use README generator?',
+        },
+        {
+            name: 'contribution',
+            type: 'input',
+            message: 'How can others contribute to this project?',
+        },
+        {
+            name: 'test',
+            type: 'input',
+            message: 'How can someone test the README Generator?',
+        },{
+            name: 'license',
+            type: 'input',
+            message: 'Which license would you like for this project?',
+        },
+        {
+            name: 'email',
+            type: 'input',
+            message: 'What is your email?',
+        },
+        {
+            name: 'github',
+            type: 'input',
+            message: 'What is your github username?',
+        },
     ])
 };
 
@@ -27,4 +59,4 @@ function writeToFile(fileName, data) {}
 function init() {}
 
 // Function call to initialize app
-init();
+init(questions);
