@@ -10,14 +10,14 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(answers) {
+// Create a function to generate markdown for README
+function generateMarkdown(data) {
   let title = `[${answers.projectTitle}]`; 
 
   let markdown = `
   # ${title}
   
-  ${answers.description}
+  ${data.description}
   
   ## Table of Contents
   
@@ -30,27 +30,27 @@ function generateMarkdown(answers) {
   
   ## Installation
   
-  ${answers.installation}
+  ${data.installation}
   
   ## Usage Of
   
-  ${answers.usageOf}
+  ${data.usageOf}
   
   ## How to Contribution
   
-  ${answers.contribution}
+  ${data.contribution}
   
   ## Testing
   
-  ${answers.test}
+  ${data.test}
 
   ## Contact 
 
-  ${answers.email} ${answers.github}
+  ${data.email} + ${answers.github}
   
   ## License
   
-  ${answers.license}`;
+  ${data.license}`;
 
   return markdown;
 } 
