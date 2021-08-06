@@ -39,7 +39,7 @@ const questions = () => {
         },{
             name: 'license',
             type: 'input',
-            message: 'Which license would you like for this project?',
+            message: 'Which license would you like to use for this project?',
         },
         {
             name: 'email',
@@ -61,7 +61,9 @@ const questions = () => {
 
 // Create a function to write README file
 function writeToFile(fileName, data) {
-    
+    fs.writeFile(fileName, data, (error) => {
+        (error) ? log.error(error) : console.log("Successfully wrote to README.md");
+    })
 }
 
 // function to initialize app
@@ -73,7 +75,12 @@ function init() {
     .then(data => {
         markdown = generateMarkdown(data);
     })
+    .then(data => {
+        writeToFile("test.md", markdown);
+    })
     .catch(err => console.log(err));
+
+
 }
 
 // Function call to initialize app

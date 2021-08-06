@@ -11,11 +11,10 @@ function renderLicenseLink(license) { }
 function renderLicenseSection(license) {}
 
 // Create a function to generate markdown for README
-function generateMarkdown(data) {
-  let title = `[${answers.projectTitle}]`; 
+function generateMarkdown(data) { 
 
   let markdown = `
-  # ${title}
+  # ${data.projectTitle}
   
   ${data.description}
   
@@ -46,7 +45,7 @@ function generateMarkdown(data) {
 
   ## Contact 
 
-  ${data.email} + ${answers.github}
+  ${data.email} + ${data.github}
   
   ## License
   
