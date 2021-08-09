@@ -1,32 +1,34 @@
 
-  # bterw
+  # Coin Watch
+
+  ##Description
   
-  bgrw
+  An application that gives crypto data
   
   ## Table of Contents
   
-    [Installation](https://github.com/ilelandhayes#Installation)
-    [Usage Of](https://github.com/ilelandhayes#Usage-Of)
-    [How to Contribute](https://github.com/ilelandhayes#How-to-Contribute)
-    [Testing](https://github.com/ilelandhayes#Testing)
-    [License](https://github.com/ilelandhayes#License)
-    [Questions](https://github.com/ilelandhayes#Questions)
+  [Installation](https://github.com/ilelandhayes#Installation)
+  [Usage Of](https://github.com/ilelandhayes#Usage-Of)
+  [How to Contribute](https://github.com/ilelandhayes#How-to-Contribute)
+  [Testing](https://github.com/ilelandhayes#Testing)
+  [License](https://github.com/ilelandhayes#License)
+  [Questions](https://github.com/ilelandhayes#Questions)
   
   ## Installation
   
-  bterf
+  Make sure you have Node.js installed, then make sure you have all the dependecies installed using 'npm i'
   
   ## Usage Of
   
-  bngtr
+  Run 'Node index.js' in the terminal
   
   ## How to Contribute
   
-  bngtewn
+  No contributions at this time
   
   ## Testing
   
-  hgdas  
+  Make a test folder to run  
   
   ## License
   

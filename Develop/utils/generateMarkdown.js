@@ -15,17 +15,19 @@ function generateMarkdown(data) {
 
   let markdown = `
   # ${data.projectTitle}
+
+  ##Description
   
   ${data.description}
   
   ## Table of Contents
   
-    [Installation](https://github.com/${data.github}#Installation)
-    [Usage Of](https://github.com/${data.github}#Usage-Of)
-    [How to Contribute](https://github.com/${data.github}#How-to-Contribute)
-    [Testing](https://github.com/${data.github}#Testing)
-    [License](https://github.com/${data.github}#License)
-    [Questions](https://github.com/${data.github}#Questions)
+  [Installation](https://github.com/${data.github}#Installation)
+  [Usage Of](https://github.com/${data.github}#Usage-Of)
+  [How to Contribute](https://github.com/${data.github}#How-to-Contribute)
+  [Testing](https://github.com/${data.github}#Testing)
+  [License](https://github.com/${data.github}#License)
+  [Questions](https://github.com/${data.github}#Questions)
   
   ## Installation
   
