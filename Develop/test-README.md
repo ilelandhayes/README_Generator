@@ -1,7 +1,7 @@
 
   # Coin Watch
   
-  Application that pulls crpyto data
+  An application that pulls crypto data
   
   ## Table of Contents
   
@@ -15,19 +15,19 @@
   
   ## Installation
   
-    nhtesng
+    Make sure you have Node.js installed, then make sure you have all the dependencies by running 'npm i'
   
   ## Usage Of
   
-    ngfrse
+    Navigate to the terminal and then run 'node index.js'
   
   ## How to Contribute
   
-    nyrwng
+    No contributions at this time.
   
   ## Testing
   
-    nrgtwngfe  
+    To test, create a test folder   
   
   ## License
   
@@ -37,7 +37,7 @@
 
     If have any questions about this software feel free to contact me:
 
-    Github: [leland](https://github.com/undefined)
+    Github: [ilelandhayes](https://github.com/undefined)
     Email: (mailto:lelandkhayes13@gmail.com
 
   
