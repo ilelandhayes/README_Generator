@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   
-    * [Installation](#Installation)
+    * [Installation](https://github.com/${data.github}#Installation)
     * [Usage Of](#usageOf)
     * [How to Contribute](#contribution)
     * [Testing](#test)
@@ -50,9 +50,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-    If have any questions about this software feel free to contact me:
+    If have any questions about this application feel free to contact me:
 
-    Github: [${data.github}](https://github.com/${data.gitusername})
+    Github: [${data.github}](https://github.com/${data.github})
     Email: (mailto:${data.email}
 
   `;

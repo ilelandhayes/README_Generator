@@ -1,11 +1,11 @@
 
   # Coin Watch
   
-  An application that pulls crypto data
+  An application that gives crypto data
   
   ## Table of Contents
   
-    * [Installation](#Installation)
+    * [Installation](https://github.com/ilelandhayes#Installation)
     * [Usage Of](#usageOf)
     * [How to Contribute](#contribution)
     * [Testing](#test)
@@ -23,11 +23,11 @@
   
   ## How to Contribute
   
-    No contributions at this time.
+    No contribtutions at this time
   
   ## Testing
   
-    To test, create a test folder   
+    To test, create a test folder  
   
   ## License
   
@@ -35,9 +35,9 @@
 
   ## Questions
 
-    If have any questions about this software feel free to contact me:
+    If have any questions about this application feel free to contact me:
 
-    Github: [ilelandhayes](https://github.com/undefined)
+    Github: [ilelandhayes](https://github.com/ilelandhayes)
     Email: (mailto:lelandkhayes13@gmail.com
 
   
