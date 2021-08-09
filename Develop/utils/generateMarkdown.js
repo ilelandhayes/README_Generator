@@ -20,13 +20,12 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   
-    * [Installation](https://github.com/${data.github}#Installation)
-    * [Usage Of](#usageOf)
-    * [How to Contribute](#contribution)
-    * [Testing](#test)
-    * [Contact](#email)(#github)
-    * [License](#license)
-    * [Questions](#question)
+    * [Installation](#Installation)
+    * [Usage Of](#Usage-Of)
+    * [How to Contribute](#How-to-Contribute)
+    * [Testing](#Testing)
+    * [License](#License)
+    * [Questions](#Questions)
   
   ## Installation
   
@@ -53,7 +52,7 @@ function generateMarkdown(data) {
     If have any questions about this application feel free to contact me:
 
     Github: [${data.github}](https://github.com/${data.github})
-    Email: (mailto:${data.email}
+    Email: ${data.email}
 
   `;
 

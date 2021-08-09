@@ -5,13 +5,12 @@
   
   ## Table of Contents
   
-    * [Installation](https://github.com/ilelandhayes#Installation)
-    * [Usage Of](#usageOf)
-    * [How to Contribute](#contribution)
-    * [Testing](#test)
-    * [Contact](#email)(#github)
-    * [License](#license)
-    * [Questions](#question)
+    * [Installation](#Installation)
+    * [Usage Of](#Usage-Of)
+    * [How to Contribute](#How-to-Contribute)
+    * [Testing](#Testing)
+    * [License](#License)
+    * [Questions](#Questions)
   
   ## Installation
   
@@ -27,7 +26,7 @@
   
   ## Testing
   
-    To test, create a test folder  
+    To test, create a test folder    
   
   ## License
   
@@ -38,6 +37,6 @@
     If have any questions about this application feel free to contact me:
 
     Github: [ilelandhayes](https://github.com/ilelandhayes)
-    Email: (mailto:lelandkhayes13@gmail.com
+    Email: lelandkhayes13@gmail.com
 
   

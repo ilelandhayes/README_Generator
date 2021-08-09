@@ -68,7 +68,7 @@ function writeToFile(fileName, data) {
 // function to initialize app
 function init() {
 
-    let markdown = '';
+    // let markdown = '';
 
     questions()
     .then(data => {
