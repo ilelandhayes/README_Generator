@@ -1,6 +1,8 @@
 // Include packages needed for this application
-const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
 const inquirer = require('inquirer');
+
 const fs = require('fs');
 
 
@@ -52,9 +54,10 @@ const questions = () => {
             message: 'What is your github username?',
         },
         {
-            name: 'liveLink',
-            type: 'input',
-            message: 'Live link to your project, if one is available?',
+            name: 'license',
+            type: 'list',
+            message: 'Using the up/down arrow keys, select an appropriate license badge by clicking enter:',
+            choices: ["Apache-2.0", "MIT", "BSD-3-Clause", "gpl-3.0"],
         },
     ])
 };
@@ -76,10 +79,9 @@ function init() {
         markdown = generateMarkdown(data);
     })
     .then(data => {
-        writeToFile("test.md", markdown);
+        writeToFile("test-README.md2", markdown);
     })
     .catch(err => console.log(err));
-
 
 }
 

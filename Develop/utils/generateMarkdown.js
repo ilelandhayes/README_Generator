@@ -1,10 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }
+function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -20,36 +20,42 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   
-  *[Installation](#Installation)
-  *[Usage Of](#usageOf)
-  *[How to Contribution](#contribution)
-  *[Testing](#test)
-  *[Contact](#email)(#github)
-  *[License](#license)
+    * [Installation](#Installation)
+    * [Usage Of](#usageOf)
+    * [How to Contribute](#contribution)
+    * [Testing](#test)
+    * [Contact](#email)(#github)
+    * [License](#license)
+    * [Questions](#question)
   
   ## Installation
   
-  ${data.installation}
+    ${data.installation}
   
   ## Usage Of
   
-  ${data.usageOf}
+    ${data.usageOf}
   
-  ## How to Contribution
+  ## How to Contribute
   
-  ${data.contribution}
+    ${data.contribution}
   
   ## Testing
   
-  ${data.test}
-
-  ## Contact 
-
-  ${data.email} + ${data.github}
+    ${data.test}  
   
   ## License
   
-  ${data.license}`;
+    This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
+
+  ## Questions
+
+    If have any questions about this software feel free to contact me:
+
+    Github: [${data.github}](https://github.com/${data.gitusername})
+    Email: (mailto:${data.email}
+
+  `;
 
   return markdown;
 } 
