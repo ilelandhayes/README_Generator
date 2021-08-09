@@ -20,39 +20,39 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   
-    * [Installation](#Installation)
-    * [Usage Of](#Usage-Of)
-    * [How to Contribute](#How-to-Contribute)
-    * [Testing](#Testing)
-    * [License](#License)
-    * [Questions](#Questions)
+    [Installation](https://github.com/${data.github}#Installation)
+    [Usage Of](https://github.com/${data.github}#Usage-Of)
+    [How to Contribute](https://github.com/${data.github}#How-to-Contribute)
+    [Testing](https://github.com/${data.github}#Testing)
+    [License](https://github.com/${data.github}#License)
+    [Questions](https://github.com/${data.github}#Questions)
   
   ## Installation
   
-    ${data.installation}
+  ${data.installation}
   
   ## Usage Of
   
-    ${data.usageOf}
+  ${data.usageOf}
   
   ## How to Contribute
   
-    ${data.contribution}
+  ${data.contribution}
   
   ## Testing
   
-    ${data.test}  
+  ${data.test}  
   
   ## License
   
-    This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
+  This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
 
   ## Questions
 
-    If have any questions about this application feel free to contact me:
+  If have any questions about this application feel free to contact me:
 
-    Github: [${data.github}](https://github.com/${data.github})
-    Email: ${data.email}
+  Github: [${data.github}](https://github.com/${data.github})
+  Email: ${data.email}
 
   `;
 
