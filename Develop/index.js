@@ -17,7 +17,7 @@ const questions = () => {
         {
             name: 'description',
             type: 'input',
-            message: 'Provide a short description description of what, why, and how of your project.',
+            message: 'Provide a short description of what, why, and how of your project.',
         },
         {
             name: 'installation',
@@ -38,10 +38,6 @@ const questions = () => {
             name: 'test',
             type: 'input',
             message: 'How can someone test the README Generator?',
-        },{
-            name: 'license',
-            type: 'input',
-            message: 'Which license would you like to use for this project?',
         },
         {
             name: 'email',
@@ -79,7 +75,7 @@ function init() {
         markdown = generateMarkdown(data);
     })
     .then(data => {
-        writeToFile("test-README.md2", markdown);
+        writeToFile("test-README.md", markdown);
     })
     .catch(err => console.log(err));
 
