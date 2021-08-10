@@ -12,7 +12,10 @@ This is a Node.js application that dynamically renders a README file for any giv
 
     * A README.md file will be generated 
 
-## Built With
-  *Inquirer
+# Built With
+*Inquirer
   
-  *Node.js
+*Node.js
+
+# Video Example
+

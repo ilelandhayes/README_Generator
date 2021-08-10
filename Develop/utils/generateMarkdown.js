@@ -16,17 +16,17 @@ function generateMarkdown(data) {
   let markdown = `
   # ${data.projectTitle}
 
-  ##Description
+  ## Description
   
   ${data.description}
   
   ## Table of Contents
   
-  [Installation](https://github.com/${data.github}#Installation)
-  [Usage Of](https://github.com/${data.github}#Usage-Of)
-  [How to Contribute](https://github.com/${data.github}#How-to-Contribute)
-  [Testing](https://github.com/${data.github}#Testing)
-  [License](https://github.com/${data.github}#License)
+  [Installation](https://github.com/${data.github}#Installation)\n\n
+  [Usage Of](https://github.com/${data.github}#Usage-Of)\n\n
+  [How to Contribute](https://github.com/${data.github}#How-to-Contribute)\n\n
+  [Testing](https://github.com/${data.github}#Testing)\n\n
+  [License](https://github.com/${data.github}#License)\n\n
   [Questions](https://github.com/${data.github}#Questions)
   
   ## Installation
@@ -53,8 +53,7 @@ function generateMarkdown(data) {
 
   If have any questions about this application feel free to contact me:
 
-  Github: [${data.github}](https://github.com/${data.github})
-  Email: ${data.email}
+  Github: [${data.github}](https://github.com/${data.github})\n\n Email: ${data.email}
 
   `;
 

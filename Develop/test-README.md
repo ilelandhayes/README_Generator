@@ -1,17 +1,27 @@
 
   # Coin Watch
 
-  ##Description
+  ## Description
   
   An application that gives crypto data
   
   ## Table of Contents
   
   [Installation](https://github.com/ilelandhayes#Installation)
+
+
   [Usage Of](https://github.com/ilelandhayes#Usage-Of)
+
+
   [How to Contribute](https://github.com/ilelandhayes#How-to-Contribute)
+
+
   [Testing](https://github.com/ilelandhayes#Testing)
+
+
   [License](https://github.com/ilelandhayes#License)
+
+
   [Questions](https://github.com/ilelandhayes#Questions)
   
   ## Installation
@@ -20,15 +30,15 @@
   
   ## Usage Of
   
-  Run 'Node index.js' in the terminal
+  Run 'node index.js'
   
   ## How to Contribute
   
-  No contributions at this time
+  Please no contributions at this time
   
   ## Testing
   
-  Make a test folder to run  
+  Make a test folder to run   
   
   ## License
   
@@ -39,6 +49,7 @@
   If have any questions about this application feel free to contact me:
 
   Github: [ilelandhayes](https://github.com/ilelandhayes)
-  Email: lelandkhayes13@gmail.com
+
+ Email: lelandkhayes13@gmail.com
 
   
