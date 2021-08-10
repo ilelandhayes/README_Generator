@@ -17,3 +17,7 @@ This is a Node.js application that dynamically renders a README file for any giv
 *Inquirer
   
 *Node.js
+
+# Example Video
+
+https://user-images.githubusercontent.com/82625695/128800386-2f4ee9d3-b72b-4c0d-be8f-04152cbbd15d.mp4
