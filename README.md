@@ -1,3 +1,4 @@
+
 # README_Generator
 
 This is a Node.js application that dynamically renders a README file for any given repository. A proffesional README is always good to go with brilliant code.
@@ -16,6 +17,3 @@ This is a Node.js application that dynamically renders a README file for any giv
 *Inquirer
   
 *Node.js
-
-# Video Example
-
